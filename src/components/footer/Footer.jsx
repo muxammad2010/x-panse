@@ -46,6 +46,7 @@ const Footer = () => {
                         </li>
                     </ul>
                 </div>
+
                 <div className="NEWSLATTER">
                     <h2>NEWSLATTER</h2>
                     <p>Over 25000 people have subscribed</p>
