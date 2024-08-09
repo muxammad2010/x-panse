@@ -1,0 +1,108 @@
+.Pricing {
+  width: 100%;
+  padding: 124px 165px 124px 165px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #fffaf8;
+  gap: 80px;
+}
+.Pricing .pricing1 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pricing1 h1 {
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 72px;
+  text-align: center;
+  color: #292830;
+}
+.Pricing .pricing2 {
+  width: 100%;
+  padding-left: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+.pricing2 .plan {
+  width: 100%;
+  padding: 41px 117px 60px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  text-align: left;
+  border-radius: 10px;
+  background: #fff;
+  gap: 24px;
+  transition: all 0.5s ease;
+}
+
+.pricing2 .plan:hover {
+  box-shadow: 0px 0px 100px rgba(0, 0, 0, 0.2);
+}
+.plan h3 {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 51.74px;
+  text-align: left;
+  color: #292830;
+}
+.plan ul {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  gap: 8px;
+}
+.plan ul li {
+  list-style: none;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 29.11px;
+  text-align: left;
+}
+.plan ul li a {
+  text-decoration: none;
+  color: #292830;
+  transition: all 0.3s ease;
+}
+.plan ul li a:hover {
+  color: #ff7235;
+}
+.plan span {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 19.4px;
+  text-align: left;
+  color: #bdbdbd;
+}
+
+.plan button {
+  width: 136px;
+  height: 50px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25.87px;
+
+  padding: 12px 24px 12px 24px;
+  gap: 10px;
+  border-radius: 8px;
+  border: 1px solid #ff7235;
+  opacity: 0px;
+  background: none;
+  transition: all 1s ease;
+}
+.plan img {
+  width: 24px;
+  height: 24px;
+}
+.plan button:hover {
+  background: #ff7235;
+  color: #fff;
+}

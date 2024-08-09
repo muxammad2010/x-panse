@@ -1,0 +1,47 @@
+.Features {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background: #ff7235;
+  gap: 20px;
+}
+.Features h1 {
+  padding-top: 120px;
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 72px;
+  text-align: center;
+  color: #fff;
+}
+.Features p {
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 36px;
+  text-align: center;
+  color: #fff;
+}
+.Features .features {
+  padding: 0 84px 92px 61px;
+  display: flex;
+  justify-content: space-between;
+  align-items: top;
+}
+.features button {
+  width: 213px;
+  height: 60px;
+  background: #fff;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 20.9px;
+  padding: 18px 24px 18px 24px;
+  gap: 10px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  color: #ff7235;
+  transition: all 0.3s ease;
+}
+.features button:hover {
+  background: aqua;
+  color: #000;
+}
